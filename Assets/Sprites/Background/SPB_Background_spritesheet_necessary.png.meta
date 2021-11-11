@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 9558ccedccf851b4a8f92777d0f6befd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5290055767873987603
+    second: SPB_Background_spritesheet_necessary_0
+  - first:
+      213: -6385744009001291534
+    second: SPB_Background_spritesheet_necessary_1
+  - first:
+      213: 522040845543159238
+    second: SPB_Background_spritesheet_necessary_2
+  - first:
+      213: -362911442689385628
+    second: SPB_Background_spritesheet_necessary_3
+  - first:
+      213: 932970346199831538
+    second: SPB_Background_spritesheet_necessary_4
+  - first:
+      213: -5849345730571573459
+    second: SPB_Background_spritesheet_necessary_5
+  - first:
+      213: 2656273178612772498
+    second: SPB_Background_spritesheet_necessary_6
+  - first:
+      213: -528561017656742798
+    second: SPB_Background_spritesheet_necessary_7
+  - first:
+      213: 5866588204766506523
+    second: SPB_Background_spritesheet_necessary_8
+  - first:
+      213: -8172097029734400283
+    second: SPB_Background_spritesheet_necessary_10
+  - first:
+      213: -6702264105746734572
+    second: SPB_Background_spritesheet_necessary_14
+  - first:
+      213: -3342215158594421760
+    second: SPB_Background_spritesheet_necessary_15
+  - first:
+      213: 2453337711503275646
+    second: SPB_Background_spritesheet_necessary_16
+  - first:
+      213: 4677467683245546662
+    second: SPB_Background_spritesheet_necessary_17
+  - first:
+      213: -1897197263261464365
+    second: SPB_Background_spritesheet_necessary_18
+  - first:
+      213: -3691810850655058893
+    second: SPB_Background_spritesheet_necessary_19
+  - first:
+      213: -5711237251826828606
+    second: SPB_Background_spritesheet_necessary_20
+  - first:
+      213: -2637495482236518034
+    second: SPB_Background_spritesheet_necessary_21
+  - first:
+      213: 3826271835444295858
+    second: SPB_Background_spritesheet_necessary_23
+  - first:
+      213: -8502049286955229904
+    second: SPB_Background_spritesheet_necessary_28
+  - first:
+      213: -5613967416559059127
+    second: SPB_Background_spritesheet_necessary_29
+  - first:
+      213: -5829560372343314687
+    second: SPB_Background_spritesheet_necessary_30
+  - first:
+      213: 7844988963898368861
+    second: SPB_Background_spritesheet_necessary_31
+  - first:
+      213: -5481277051759846131
+    second: SPB_Background_spritesheet_necessary_32
+  - first:
+      213: -4643174403134481580
+    second: SPB_Background_spritesheet_necessary_33
+  - first:
+      213: -2283966719284957960
+    second: SPB_Background_spritesheet_necessary_34
+  - first:
+      213: -1095279087150275740
+    second: SPB_Background_spritesheet_necessary_35
+  - first:
+      213: 6767847856557840366
+    second: SPB_Background_spritesheet_necessary_36
+  - first:
+      213: -8214750357490224636
+    second: SPB_Background_spritesheet_necessary_37
+  - first:
+      213: -7547066658434367164
+    second: SPB_Background_spritesheet_necessary_41
+  - first:
+      213: -7509164145248793450
+    second: SPB_Background_spritesheet_necessary_43
+  - first:
+      213: -1273857488826003576
+    second: SPB_Background_spritesheet_necessary_49
+  - first:
+      213: 7847167904862576129
+    second: SPB_Background_spritesheet_necessary_50
+  - first:
+      213: 8700065714808047347
+    second: SPB_Background_spritesheet_necessary_51
+  - first:
+      213: -3676943756111943627
+    second: SPB_Background_spritesheet_necessary_58
+  - first:
+      213: 7170809708067979853
+    second: SPB_Background_spritesheet_necessary_60
+  - first:
+      213: 1604506042893853526
+    second: SPB_Background_spritesheet_necessary_62
+  - first:
+      213: -2701100298313440535
+    second: SPB_Background_spritesheet_necessary_63
+  - first:
+      213: -7819252486747342871
+    second: SPB_Background_spritesheet_necessary_64
+  - first:
+      213: 3471921140059240776
+    second: SPB_Background_spritesheet_necessary_66
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314a22661bd0a6940800000000000000
+      internalID: 5290055767873987603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f036ec28a74167a0800000000000000
+      internalID: -6385744009001291534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c538d41269ae3700800000000000000
+      internalID: 522040845543159238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b139537fda6faf0800000000000000
+      internalID: -362911442689385628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3d637369392fc00800000000000000
+      internalID: 932970346199831538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2765d89c03f2dea0800000000000000
+      internalID: -5849345730571573459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29eac95e16afcd420800000000000000
+      internalID: 2656273178612772498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c637c0e8c2aa8f0800000000000000
+      internalID: -528561017656742798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1eaa94c3ee4a6150800000000000000
+      internalID: 5866588204766506523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 48
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eef7a09c01e69e80800000000000000
+      internalID: -8172097029734400283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_14
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 67
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4126d125e46ccf2a0800000000000000
+      internalID: -6702264105746734572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cbd0565011e91d0800000000000000
+      internalID: -3342215158594421760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76f83876a10c0220800000000000000
+      internalID: 2453337711503275646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac583c5314b9e040800000000000000
+      internalID: 4677467683245546662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8057e042dcba5e0800000000000000
+      internalID: -1897197263261464365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334c5c4679d04ccc0800000000000000
+      internalID: -3691810850655058893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca32e89afb9db0b0800000000000000
+      internalID: -5711237251826828606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61489c35dbb56bd0800000000000000
+      internalID: -2637495482236518034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b83dbd36f5a91530800000000000000
+      internalID: 3826271835444295858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_28
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 53
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d9b242837a20a80800000000000000
+      internalID: -8502049286955229904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_29
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 58
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f3163f06e2712b0800000000000000
+      internalID: -5613967416559059127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_30
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 53
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10768c94abd391fa0800000000000000
+      internalID: -5829560372343314687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_31
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53a50ce5effedc60800000000000000
+      internalID: 7844988963898368861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d9a5eff879ee3b0800000000000000
+      internalID: -5481277051759846131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b9bfe1b71209fb0800000000000000
+      internalID: -4643174403134481580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fca43aae58bd40e0800000000000000
+      internalID: -2283966719284957960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4636e782979ccc0f0800000000000000
+      internalID: -1095279087150275740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7d40894c93ced50800000000000000
+      internalID: 6767847856557840366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402384fc2185ffd80800000000000000
+      internalID: -8214750357490224636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_41
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 31
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44143d73cde634790800000000000000
+      internalID: -7547066658434367164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_43
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 16
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c8852cef61ac790800000000000000
+      internalID: -7509164145248793450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_49
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f0e04fc59525ee0800000000000000
+      internalID: -1273857488826003576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_50
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e1e2622adb6ec60800000000000000
+      internalID: 7847167904862576129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_51
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 37
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f640b53ca7dcb870800000000000000
+      internalID: 8700065714808047347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_58
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 16
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5386bd5922fd8fcc0800000000000000
+      internalID: -3676943756111943627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_60
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 16
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d428059df65d38360800000000000000
+      internalID: 7170809708067979853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_62
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 21
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653e7a6beb9544610800000000000000
+      internalID: 1604506042893853526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_63
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 21
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e26358f693c38ad0800000000000000
+      internalID: -2701100298313440535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_64
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 21
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7b55e9a4f6c7390800000000000000
+      internalID: -7819252486747342871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Background_spritesheet_necessary_66
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8497661c1edbe2030800000000000000
+      internalID: 3471921140059240776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

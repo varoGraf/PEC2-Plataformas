@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: c4e9582e5e4a7d54bbf4d0de9c95435e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -278662328204679570
+    second: SPB_Mario_spritesheet_necessary_0
+  - first:
+      213: 1641167201993762477
+    second: SPB_Mario_spritesheet_necessary_1
+  - first:
+      213: -4655862623337551620
+    second: SPB_Mario_spritesheet_necessary_2
+  - first:
+      213: 3931017309218263403
+    second: SPB_Mario_spritesheet_necessary_3
+  - first:
+      213: -1169476338464488983
+    second: SPB_Mario_spritesheet_necessary_4
+  - first:
+      213: 5784881446167538505
+    second: SPB_Mario_spritesheet_necessary_5
+  - first:
+      213: -4127627147206430074
+    second: SPB_Mario_spritesheet_necessary_6
+  - first:
+      213: 5525421474008319780
+    second: SPB_Mario_spritesheet_necessary_7
+  - first:
+      213: -4830367096659887941
+    second: SPB_Mario_spritesheet_necessary_8
+  - first:
+      213: 4162610900365349261
+    second: SPB_Mario_spritesheet_necessary_9
+  - first:
+      213: -1259763347847999225
+    second: SPB_Mario_spritesheet_necessary_10
+  - first:
+      213: 2089816510206584168
+    second: SPB_Mario_spritesheet_necessary_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPB_Mario_spritesheet_necessary_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 29
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66a313c61ef12cf0800000000000000
+      internalID: -278662328204679570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Mario_spritesheet_necessary_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 29
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da62cdbffd896c610800000000000000
+      internalID: 1641167201993762477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Mario_spritesheet_necessary_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 28
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf862f4ac9d036fb0800000000000000
+      internalID: -4655862623337551620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Mario_spritesheet_necessary_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 29
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61ddd15a67cd8630800000000000000
+      internalID: 3931017309218263403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Mario_spritesheet_necessary_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 29
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e18990677f25cfe0800000000000000
+      internalID: -1169476338464488983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Mario_spritesheet_necessary_5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b60929607084050800000000000000
+      internalID: 5784881446167538505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Mario_spritesheet_necessary_6
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 29
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682708d8af8b7b6c0800000000000000
+      internalID: -4127627147206430074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Mario_spritesheet_necessary_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 9
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427c4904e8d3eac40800000000000000
+      internalID: 5525421474008319780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Mario_spritesheet_necessary_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 9
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb83adcc7b617fcb0800000000000000
+      internalID: -4830367096659887941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Mario_spritesheet_necessary_9
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 9
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8112763f8094c930800000000000000
+      internalID: 4162610900365349261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Mario_spritesheet_necessary_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 9
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701967ed8eb648ee0800000000000000
+      internalID: -1259763347847999225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPB_Mario_spritesheet_necessary_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 10
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8652c903b05800d10800000000000000
+      internalID: 2089816510206584168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
