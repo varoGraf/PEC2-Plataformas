@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerScript : MonoBehaviour
 {
@@ -8,16 +10,24 @@ public class PlayerScript : MonoBehaviour
     private Rigidbody2D m_rigidBody;
     private Animator m_anim;
     private Collider2D m_collider;
-    private bool isGrounded = true;
+
+    [SerializeField]
+    private AudioSource audioSource;
 
     [SerializeField]
     private LayerMask layerMask;
+    [SerializeField]
+    private LayerMask layerMaskEnemy;
 
     [SerializeField]
     private float jumpSpeedY = 10f;
     [SerializeField]
-    private float movementSpeedX = 3f;
-    private bool isJumping = false;
+    private float acceleration = 8f;
+    [SerializeField]
+    private float movementSpeedX = 10f;
+    [SerializeField]
+    private float deceleration = 0.92f;
+
 
     void Start()
     {
@@ -25,39 +35,77 @@ public class PlayerScript : MonoBehaviour
         m_rigidBody = this.gameObject.GetComponent<Rigidbody2D>() ?? this.gameObject.AddComponent<Rigidbody2D>();
         m_anim = this.gameObject.GetComponent<Animator>() ?? gameObject.AddComponent<Animator>();
         m_collider = this.gameObject.GetComponent<Collider2D>() ?? this.gameObject.AddComponent<Collider2D>();
+        movementSpeedX = 3f;
     }
 
     void Update()
     {
+        if (m_hp <= 0 || this.transform.position.y < -1)
+        {
+            LoadDiedScene();
+        }
+
         if (IsGrounded())
         {
-            isJumping = false;
+            m_anim.SetBool("isGrounded", true);
+            m_rigidBody.gravityScale = 1;
         }
         else
         {
-            isJumping = true;
+            m_anim.SetBool("isGrounded", false);
         }
 
-        if (!isJumping)
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            if (Input.GetButtonDown("Jump") && IsGrounded())
+            audioSource.Play();
+            m_rigidBody.velocity = new Vector2(m_rigidBody.velocity.x, jumpSpeedY);
+        }
+        else if (!Input.GetButton("Jump"))
+        {
+            if (m_rigidBody.velocity.y > 0)
             {
-                isJumping = true;
-                m_rigidBody.velocity = new Vector2(m_rigidBody.velocity.x, jumpSpeedY);
+                m_rigidBody.velocity = new Vector2(m_rigidBody.velocity.x, m_rigidBody.velocity.y * 0.96f);
             }
+        }
+
+        if (!IsGrounded() && Mathf.Floor(m_rigidBody.velocity.y) == 0)
+        {
+            m_rigidBody.gravityScale = 2;
+        }
+
+
+
+        if (Input.GetButton("Fast"))
+        {
+            if (IsGrounded())
+            {
+                movementSpeedX = 13f;
+            }
+        }
+        else
+        {
+            movementSpeedX = 10f;
         }
 
         if (Input.GetButton("Horizontal"))
         {
-            if (!isJumping)
+            if (IsGrounded())
             {
                 if (Input.GetAxisRaw("Horizontal") > 0 && m_rigidBody.velocity.x <= movementSpeedX)
                 {
-                    m_rigidBody.AddForce(new Vector3(1, 0, 0) * 1.5f);
+                    if (m_rigidBody.velocity.x < -movementSpeedX / 2)
+                    {
+                        m_rigidBody.AddForce(new Vector3(1, 0, 0) * acceleration * 2);
+                    }
+                    m_rigidBody.AddForce(new Vector3(1, 0, 0) * acceleration);
                 }
                 else if (Input.GetAxisRaw("Horizontal") < 0 && m_rigidBody.velocity.x >= -movementSpeedX)
                 {
-                    m_rigidBody.AddForce(new Vector3(-1, 0, 0) * 1.5f);
+                    if (m_rigidBody.velocity.x > movementSpeedX / 2)
+                    {
+                        m_rigidBody.AddForce(new Vector3(-1, 0, 0) * acceleration * 2);
+                    }
+                    m_rigidBody.AddForce(new Vector3(-1, 0, 0) * acceleration);
                 }
 
             }
@@ -65,22 +113,46 @@ public class PlayerScript : MonoBehaviour
             {
                 if (Input.GetAxisRaw("Horizontal") > 0 && m_rigidBody.velocity.x <= movementSpeedX / 2)
                 {
-                    m_rigidBody.AddForce(new Vector3(1, 0, 0) * 0.5f);
+                    m_rigidBody.AddForce(new Vector3(1, 0, 0) * acceleration / 3);
                 }
                 else if (Input.GetAxisRaw("Horizontal") < 0 && m_rigidBody.velocity.x >= -movementSpeedX / 2)
                 {
-                    m_rigidBody.AddForce(new Vector3(-1, 0, 0) * 0.5f);
+                    m_rigidBody.AddForce(new Vector3(-1, 0, 0) * acceleration / 3);
                 }
 
             }
         }
         else
         {
-            if (!isJumping)
+            if (IsGrounded())
             {
-                m_rigidBody.velocity = new Vector2(m_rigidBody.velocity.x * 0.99f, m_rigidBody.velocity.y);
+                if (m_rigidBody.velocity.x <= 0.09f && m_rigidBody.velocity.x >= -0.09f)
+                {
+                    m_rigidBody.velocity = new Vector2(0f, m_rigidBody.velocity.y);
+                }
+                else
+                {
+                    m_rigidBody.velocity = new Vector2(m_rigidBody.velocity.x * deceleration, m_rigidBody.velocity.y);
+                }
             }
         }
+        if (m_rigidBody.velocity.x != 0.0f)
+        {
+            if (m_rigidBody.velocity.x > 0)
+            {
+                transform.rotation = Quaternion.Euler(0.0f, 0.0f, 0.0f);
+            }
+            else if (m_rigidBody.velocity.x < 0)
+            {
+                transform.rotation = Quaternion.Euler(0.0f, 180f, 0.0f);
+            }
+            m_anim.SetBool("isRunning", true);
+        }
+        else
+        {
+            m_anim.SetBool("isRunning", false);
+        }
+
     }
 
     bool IsGrounded()
@@ -90,5 +162,37 @@ public class PlayerScript : MonoBehaviour
 
         return hit.collider != null;
     }
+
+    public void LoadDiedScene()
+    {
+        SceneManager.LoadScene("DiedScene");
+    }
+    public void LoadWinScene()
+    {
+        SceneManager.LoadScene("WinScene");
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "FlagPole")
+        {
+            LoadWinScene();
+        }
+        if (other.tag == "Enemy")
+        {
+            Destroy(other.gameObject);
+            m_rigidBody.velocity = new Vector2(m_rigidBody.velocity.x, jumpSpeedY / 2);
+        }
+
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.collider.tag == "Enemy")
+        {
+            m_hp -= 1;
+        }
+
+    }
+
 
 }

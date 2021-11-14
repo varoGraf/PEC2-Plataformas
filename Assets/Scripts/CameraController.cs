@@ -6,7 +6,7 @@ public class CameraController : MonoBehaviour
 {
     [SerializeField]
     private Transform player;
-    private float maxY, minY, maxX, minX;
+    private float maxY, minY, maxX;
     private Camera cam;
     [SerializeField]
     private Vector3 offset;
@@ -15,7 +15,6 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         minY = 4;
-        minX = 0;
         maxX = 205;
         cam = Camera.main;
         lastX = player.position.x;
